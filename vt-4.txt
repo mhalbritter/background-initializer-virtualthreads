@@ -1,0 +1,25 @@
+Using virtual threads
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::             (v3.2.0-M1)
+
+2023-08-04T10:02:28.686+02:00  INFO 96162 --- [           main] com.example.sb36695.Sb36695Application   : Starting Sb36695Application v0.0.1-SNAPSHOT using Java 21-ea with PID 96162 (/Users/mkammerer/Downloads/issue-projects/sb-36695/build/libs/sb-36695-0.0.1-SNAPSHOT.jar started by mkammerer in /Users/mkammerer/Downloads/issue-projects/sb-36695)
+2023-08-04T10:02:28.687+02:00  INFO 96162 --- [           main] com.example.sb36695.Sb36695Application   : No active profile set, falling back to 1 default profile: "default"
+Runnable: PT0.2600485S
+2023-08-04T10:02:29.187+02:00  INFO 96162 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-08-04T10:02:29.193+02:00  INFO 96162 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-04T10:02:29.193+02:00  INFO 96162 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-04T10:02:29.240+02:00  INFO 96162 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-04T10:02:29.240+02:00  INFO 96162 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 529 ms
+2023-08-04T10:02:29.421+02:00  INFO 96162 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2023-08-04T10:02:29.436+02:00  INFO 96162 --- [           main] com.example.sb36695.Sb36695Application   : Started Sb36695Application in 0.927 seconds (process running for 1.215)
+preinitializationComplete.await(): PT0.000004417S
+2023-08-04T10:02:29.485+02:00  INFO 96162 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-04T10:02:29.485+02:00  INFO 96162 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-04T10:02:29.486+02:00  INFO 96162 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+Got response Dto[value=0], duration since started: PT1.174578875S

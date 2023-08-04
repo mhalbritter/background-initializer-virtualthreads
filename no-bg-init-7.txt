@@ -1,0 +1,22 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::             (v3.2.0-M1)
+
+2023-08-04T10:29:37.957+02:00  INFO 22164 --- [           main] com.example.sb36695.Sb36695Application   : Starting Sb36695Application v0.0.1-SNAPSHOT using Java 21-ea with PID 22164 (/Users/mkammerer/Downloads/issue-projects/sb-36695/build/libs/sb-36695-0.0.1-SNAPSHOT.jar started by mkammerer in /Users/mkammerer/Downloads/issue-projects/sb-36695)
+2023-08-04T10:29:37.958+02:00  INFO 22164 --- [           main] com.example.sb36695.Sb36695Application   : No active profile set, falling back to 1 default profile: "default"
+2023-08-04T10:29:38.449+02:00  INFO 22164 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-08-04T10:29:38.454+02:00  INFO 22164 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-04T10:29:38.454+02:00  INFO 22164 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-04T10:29:38.509+02:00  INFO 22164 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-04T10:29:38.510+02:00  INFO 22164 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 525 ms
+2023-08-04T10:29:38.861+02:00  INFO 22164 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2023-08-04T10:29:38.871+02:00  INFO 22164 --- [           main] com.example.sb36695.Sb36695Application   : Started Sb36695Application in 1.09 seconds (process running for 1.387)
+2023-08-04T10:29:38.920+02:00  INFO 22164 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-04T10:29:38.920+02:00  INFO 22164 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-04T10:29:38.920+02:00  INFO 22164 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+Got response Dto[value=0], duration since started: PT1.382210542S
