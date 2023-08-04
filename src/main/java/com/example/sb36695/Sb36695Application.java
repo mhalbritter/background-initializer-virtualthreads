@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Sb36695Application {
 
 	public static void main(String[] args) {
-		Timing.INSTANCE.started();
+		Timing.INSTANCE.setStarted(System.nanoTime());
 		SpringApplication.run(Sb36695Application.class, args);
 	}
 

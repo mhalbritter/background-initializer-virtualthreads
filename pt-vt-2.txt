@@ -1,0 +1,25 @@
+Using platform threads
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::             (v3.2.0-M1)
+
+2023-08-04T11:48:24.820+02:00  INFO 97160 --- [           main] com.example.sb36695.Sb36695Application   : Starting Sb36695Application v0.0.1-SNAPSHOT using Java 21-ea with PID 97160 (/Users/mkammerer/Downloads/issue-projects/sb-36695/build/libs/sb-36695-0.0.1-SNAPSHOT.jar started by mkammerer in /Users/mkammerer/Downloads/issue-projects/sb-36695)
+2023-08-04T11:48:24.821+02:00  INFO 97160 --- [           main] com.example.sb36695.Sb36695Application   : No active profile set, falling back to 1 default profile: "default"
+2023-08-04T11:48:25.295+02:00  INFO 97160 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-08-04T11:48:25.301+02:00  INFO 97160 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-04T11:48:25.301+02:00  INFO 97160 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-04T11:48:25.343+02:00  INFO 97160 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-04T11:48:25.344+02:00  INFO 97160 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 501 ms
+2023-08-04T11:48:25.511+02:00  INFO 97160 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2023-08-04T11:48:25.521+02:00  INFO 97160 --- [           main] com.example.sb36695.Sb36695Application   : Started Sb36695Application in 0.869 seconds (process running for 1.093)
+2023-08-04T11:48:25.572+02:00  INFO 97160 --- [omcat-handler-0] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-04T11:48:25.572+02:00  INFO 97160 --- [omcat-handler-0] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-04T11:48:25.572+02:00  INFO 97160 --- [omcat-handler-0] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+Runnable: PT0.198651583S
+Await Latch: PT0.000006625S
+First request: PT1.101807875S

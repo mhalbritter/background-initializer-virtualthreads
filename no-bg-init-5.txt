@@ -7,16 +7,18 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::             (v3.2.0-M1)
 
-2023-08-04T10:29:29.729+02:00  INFO 20998 --- [           main] com.example.sb36695.Sb36695Application   : Starting Sb36695Application v0.0.1-SNAPSHOT using Java 21-ea with PID 20998 (/Users/mkammerer/Downloads/issue-projects/sb-36695/build/libs/sb-36695-0.0.1-SNAPSHOT.jar started by mkammerer in /Users/mkammerer/Downloads/issue-projects/sb-36695)
-2023-08-04T10:29:29.730+02:00  INFO 20998 --- [           main] com.example.sb36695.Sb36695Application   : No active profile set, falling back to 1 default profile: "default"
-2023-08-04T10:29:30.234+02:00  INFO 20998 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2023-08-04T10:29:30.240+02:00  INFO 20998 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-08-04T10:29:30.240+02:00  INFO 20998 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
-2023-08-04T10:29:30.294+02:00  INFO 20998 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-08-04T10:29:30.295+02:00  INFO 20998 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 539 ms
-2023-08-04T10:29:30.656+02:00  INFO 20998 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
-2023-08-04T10:29:30.666+02:00  INFO 20998 --- [           main] com.example.sb36695.Sb36695Application   : Started Sb36695Application in 1.138 seconds (process running for 1.375)
-2023-08-04T10:29:30.716+02:00  INFO 20998 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-08-04T10:29:30.716+02:00  INFO 20998 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-08-04T10:29:30.716+02:00  INFO 20998 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-Got response Dto[value=0], duration since started: PT1.380890625S
+2023-08-04T11:13:14.862+02:00  INFO 82247 --- [           main] com.example.sb36695.Sb36695Application   : Starting Sb36695Application v0.0.1-SNAPSHOT using Java 21-ea with PID 82247 (/Users/mkammerer/Downloads/issue-projects/sb-36695/build/libs/sb-36695-0.0.1-SNAPSHOT.jar started by mkammerer in /Users/mkammerer/Downloads/issue-projects/sb-36695)
+2023-08-04T11:13:14.863+02:00  INFO 82247 --- [           main] com.example.sb36695.Sb36695Application   : No active profile set, falling back to 1 default profile: "default"
+2023-08-04T11:13:15.335+02:00  INFO 82247 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-08-04T11:13:15.340+02:00  INFO 82247 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-04T11:13:15.340+02:00  INFO 82247 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-04T11:13:15.394+02:00  INFO 82247 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-04T11:13:15.395+02:00  INFO 82247 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 509 ms
+2023-08-04T11:13:15.737+02:00  INFO 82247 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2023-08-04T11:13:15.747+02:00  INFO 82247 --- [           main] com.example.sb36695.Sb36695Application   : Started Sb36695Application in 1.046 seconds (process running for 1.274)
+2023-08-04T11:13:15.792+02:00  INFO 82247 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-04T11:13:15.792+02:00  INFO 82247 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-04T11:13:15.793+02:00  INFO 82247 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+Runnable: null
+Await Latch: null
+First request: PT1.264582958S

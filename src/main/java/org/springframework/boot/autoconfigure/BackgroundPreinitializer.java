@@ -21,6 +21,7 @@ import java.time.Duration;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicBoolean;
 
+import com.example.sb36695.Timing;
 import jakarta.validation.Configuration;
 import jakarta.validation.Validation;
 
@@ -93,7 +94,7 @@ public class BackgroundPreinitializer implements ApplicationListener<SpringAppli
 				long start = System.nanoTime();
 				preinitializationComplete.await();
 				// CHANGE
-				System.out.println("preinitializationComplete.await(): " + Duration.ofNanos(System.nanoTime() - start));
+				Timing.INSTANCE.setLatch(Duration.ofNanos(System.nanoTime() - start));
 			}
 			catch (InterruptedException ex) {
 				Thread.currentThread().interrupt();
@@ -120,7 +121,7 @@ public class BackgroundPreinitializer implements ApplicationListener<SpringAppli
 					runSafely(new CharsetInitializer());
 					preinitializationComplete.countDown();
 					// CHANGE
-					System.out.println("Runnable: " + Duration.ofNanos(System.nanoTime() - start));
+					Timing.INSTANCE.setRunnable(Duration.ofNanos(System.nanoTime() - start));
 				}
 
 				boolean runSafely(Runnable runnable) {

@@ -1,5 +1,7 @@
 package com.example.sb36695;
 
+import java.time.Duration;
+
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.http.MediaType;
@@ -22,6 +24,7 @@ class Requester {
 	@EventListener(ApplicationReadyEvent.class)
 	void onReady() {
 		Dto dto = restClient.get().uri("/").accept(MediaType.APPLICATION_JSON).retrieve().body(Dto.class);
-		System.out.printf("Got response %s, duration since started: %s%n", dto, Timing.INSTANCE.elapsedSinceStart());
+		Timing.INSTANCE.setRequest(Duration.ofNanos(System.nanoTime() - Timing.INSTANCE.getStarted()));
+		Timing.INSTANCE.printSummary();
 	}
 }

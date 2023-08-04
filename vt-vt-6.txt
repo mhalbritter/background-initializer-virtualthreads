@@ -8,18 +8,18 @@ Using virtual threads
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::             (v3.2.0-M1)
 
-2023-08-04T10:24:00.762+02:00  INFO 14356 --- [           main] com.example.sb36695.Sb36695Application   : Starting Sb36695Application v0.0.1-SNAPSHOT using Java 21-ea with PID 14356 (/Users/mkammerer/Downloads/issue-projects/sb-36695/build/libs/sb-36695-0.0.1-SNAPSHOT.jar started by mkammerer in /Users/mkammerer/Downloads/issue-projects/sb-36695)
-2023-08-04T10:24:00.764+02:00  INFO 14356 --- [           main] com.example.sb36695.Sb36695Application   : No active profile set, falling back to 1 default profile: "default"
-Runnable: PT0.251297958S
-2023-08-04T10:24:01.296+02:00  INFO 14356 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2023-08-04T10:24:01.301+02:00  INFO 14356 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-08-04T10:24:01.301+02:00  INFO 14356 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
-2023-08-04T10:24:01.346+02:00  INFO 14356 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-08-04T10:24:01.347+02:00  INFO 14356 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 560 ms
-2023-08-04T10:24:01.523+02:00  INFO 14356 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
-2023-08-04T10:24:01.534+02:00  INFO 14356 --- [           main] com.example.sb36695.Sb36695Application   : Started Sb36695Application in 0.958 seconds (process running for 1.206)
-preinitializationComplete.await(): PT0.000004792S
-2023-08-04T10:24:01.588+02:00  INFO 14356 --- [omcat-handler-0] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-08-04T10:24:01.588+02:00  INFO 14356 --- [omcat-handler-0] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-08-04T10:24:01.589+02:00  INFO 14356 --- [omcat-handler-0] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-Got response Dto[value=0], duration since started: PT1.205905917S
+2023-08-04T11:05:13.793+02:00  INFO 65949 --- [           main] com.example.sb36695.Sb36695Application   : Starting Sb36695Application v0.0.1-SNAPSHOT using Java 21-ea with PID 65949 (/Users/mkammerer/Downloads/issue-projects/sb-36695/build/libs/sb-36695-0.0.1-SNAPSHOT.jar started by mkammerer in /Users/mkammerer/Downloads/issue-projects/sb-36695)
+2023-08-04T11:05:13.794+02:00  INFO 65949 --- [           main] com.example.sb36695.Sb36695Application   : No active profile set, falling back to 1 default profile: "default"
+2023-08-04T11:05:14.302+02:00  INFO 65949 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-08-04T11:05:14.307+02:00  INFO 65949 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-04T11:05:14.308+02:00  INFO 65949 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-04T11:05:14.351+02:00  INFO 65949 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-04T11:05:14.352+02:00  INFO 65949 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 532 ms
+2023-08-04T11:05:14.526+02:00  INFO 65949 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2023-08-04T11:05:14.536+02:00  INFO 65949 --- [           main] com.example.sb36695.Sb36695Application   : Started Sb36695Application in 0.91 seconds (process running for 1.148)
+2023-08-04T11:05:14.589+02:00  INFO 65949 --- [omcat-handler-0] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-04T11:05:14.589+02:00  INFO 65949 --- [omcat-handler-0] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-04T11:05:14.589+02:00  INFO 65949 --- [omcat-handler-0] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+Runnable: PT0.242686792S
+Await Latch: PT0.000006834S
+First request: PT1.147260292S
